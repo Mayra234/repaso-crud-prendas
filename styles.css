@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+img {
+  width: 150px;
+}
+
+header > div:nth-child(2) > a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  height: 100vh;
+}
